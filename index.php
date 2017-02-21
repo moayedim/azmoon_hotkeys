@@ -90,6 +90,10 @@ $keyboard_keys = [
     'گ',
     'ظ',
     'ط',
+    'ط',
+    'ط',
+    'ط',
+    'ط',
 ];
 include ('config.php');
 $categories = $conn->query('SELECT * FROM categories');
