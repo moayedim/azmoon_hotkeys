@@ -91,7 +91,7 @@ $keyboard_keys = [
     'ظ',
     'ط',
 ];
-include_once ('config.php');
+include ('config.php');
 $categories = $conn->query('SELECT * FROM categories');
 $category_array = array();
 while($row = $categories->fetch_assoc()){
